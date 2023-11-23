@@ -12,7 +12,7 @@ column_names = ['age', 'workclass', 'fnlwgt', 'education', 'education_num', 'mar
                 'occupation', 'relationship', 'race', 'sex', 'capital_gain', 'capital_loss',
                 'hours_per_week', 'native_country', 'income']
 
-df = pd.read_csv('C:/Users/A/Desktop/Census Income/adult.data', sep=',', header=None, names=column_names, na_values=' ?',
+df = pd.read_csv('adult.data', sep=',', header=None, names=column_names, na_values=' ?',
                  skipinitialspace=True)
 
 # Handle missing values
